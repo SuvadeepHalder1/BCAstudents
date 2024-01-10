@@ -1,6 +1,6 @@
 <html>
     <head>
-</title>BCA students</title>
+<title>BCA students</title>
 </head>
 <body>
     <header><h1>Welcome BCA students</h1></header>
