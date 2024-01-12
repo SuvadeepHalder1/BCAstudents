@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="../Img/laptop.jpg" alt="logo is not showing"></div>
+            <li><a href="../index.html">Home</li>
+            <li><a href="/Pages/about.html">About</a></li>
+            <li><a href="/Pages/contact.html">Contact us</a></li>
+            <li><a href="/Pages/services.html">Services</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+    <div className='contact'>
+        <br></br>
+        <br></br>
+        <br></br>
+        <form onSubmit={Submit}>
+  <div class="containerss">
+    <h1>Contact Us</h1>
+    <hr/>
+    <label for="Name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Your Name" id="name" ></input>
+    
+    <label for="Email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Your Email" id="email"></input>
+
+    <label for="Ph"><b>Phone</b></label>
+    <input type="text" placeholder="Enter Your Number" id="Ph" ></input>
+
+    <label for="msg"><b>Message</b></label>
+    <input type="text" placeholder="Comment" id="msg" ></input>
+    <hr/>
+    <br></br>
+    <button type="submit" class="registerbtnss">Submit</button>
+  </div>
+
+  <div class="containerss signin">
+    
+  </div>
+</form>
+</div>
+</body>
+</html>

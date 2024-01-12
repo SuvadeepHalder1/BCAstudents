@@ -1,0 +1,48 @@
+
+form
+{
+    background-color: aliceblue;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.containerss
+{
+    text-align: left;
+    margin-bottom: 35px;
+}
+.containerss label
+{
+    display: block;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.containerss input
+/*.form-control textarea*/
+{
+    border: 1px solid #777;
+    border-radius: 3px;
+    padding: 12px;
+    width: 95%;
+    display: block;
+}
+h1
+{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+.registerbtnss
+{
+    background-color: aquamarine;
+    border: 1px solid #777;
+    font-size: 20px;
+    display: block;
+    width: 20%;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    
+}
+
