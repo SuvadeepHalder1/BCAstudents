@@ -24,7 +24,7 @@ padding: 27px 45px;
 }
 .nav-list li a{
 text-decoration: none;
-color: rgb(226, 211, 211);
+color: rgb(255, 255, 255);
 font-size: 18px;
 }
 .nav-list li a:hover{
@@ -54,6 +54,7 @@ font-size: 18px;
     font-size: 13px;
     border: 2px solid gray;
     border-radius: 9px;
+   
 }
 .background{
     background: rgba(0,0,0,0.7);
@@ -108,7 +109,7 @@ color: brown;
     margin: 7px 3px;
     border: 2px solid rgb(0, 2, 0);
     border-radius: 8px;
-    background: none;
+    
     color: rgb(49, 206, 10);
     cursor: pointer;
 }
@@ -127,3 +128,12 @@ text-align: center;
     
     
 }
+.btn a{
+    text-decoration: none;
+    color: rgb(49, 206, 10);
+    
+    }
+    .btn-sm{
+        border-color: rgb(255, 0, 0);
+        color: black;
+    }
