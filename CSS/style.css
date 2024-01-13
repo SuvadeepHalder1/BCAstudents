@@ -36,16 +36,18 @@ font-size: 18px;
     width: 35%;
     text-align: right;
     padding: 0 23px;
+    
 }
 .logo{
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .logo img{
-    width: 76%;
-   
+    width: 60px;
+    height: 60px;
     border: 2px solid white;
     border-radius: 50%;
 }
@@ -137,4 +139,14 @@ text-align: center;
         border-color: rgb(255, 0, 0);
         color: black;
     }
+
+.dims img{
+    display: block;
+    height: 385px;
+    width: 520px;
+    margin: 0 auto;
+   /* margin-left: 365px;*/
+    transition: 0.3s;
+    border: 1px solid black;
     
+}
