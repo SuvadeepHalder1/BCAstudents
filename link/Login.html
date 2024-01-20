@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BCAstudents</title>
-    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./Login.css">
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="icon" href="../Img/log.png">
+    <title>Document</title>
 </head>
 <body>
     <nav class="navbar background">
@@ -22,34 +22,26 @@
             <a href="./Login.html"><button class="btn btn-sm">Login</button></a>
         </div>
     </nav>
-    <div className='contact'>
-        <br></br>
-        <br></br>
-        <br></br>
-        <form onSubmit={Submit}>
-  <div class="containerss">
-    <h1>Contact Us</h1>
-    <hr/>
-    <label for="Name"><b>Name</b></label>
-    <input type="text" placeholder="Enter Your Name" id="name" ></input>
-    
-    <label for="Email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Your Email" id="email"></input>
+    <div className='center'>
 
-    <label for="Ph"><b>Phone</b></label>
-    <input type="text" placeholder="Enter Your Number" id="Ph" ></input>
-
-    <label for="msg"><b>Message</b></label>
-    <input type="text" placeholder="Comment" id="msg" ></input>
-    <hr/>
-    <br></br>
-    <button type="submit" class="registerbtnss">Submit</button>
-  </div>
-
-  <div class="containerss signin">
-    
-  </div>
-</form>
-</div>
+        <form method='post'>
+        <h1>User login</h1>
+        <div className='txt_field'>
+        <input type='text' required></input>
+        <span></span>
+        <label>user name</label>
+        </div>
+        <div className='txt_field'>
+        <input type='text' required></input>
+        <span></span>
+        <label>password</label>
+        </div>
+        <div className='pass'>Forget password?</div>
+        <input type='submit' value="Login" className='submit'></input>
+        <div className='signup_link'>
+        Not a member?<Link to="/Registration">sign up</Link>
+        </div>
+        </form>
+        </div>
 </body>
 </html>

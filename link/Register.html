@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BCAstudents</title>
-    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./Register.css">
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="icon" href="../Img/log.png">
+    <title>Document</title>
 </head>
 <body>
     <nav class="navbar background">
@@ -22,31 +22,27 @@
             <a href="./Login.html"><button class="btn btn-sm">Login</button></a>
         </div>
     </nav>
-    <div className='contact'>
-        <br></br>
-        <br></br>
-        <br></br>
+    <div className='demo'>
+       
         <form onSubmit={Submit}>
-  <div class="containerss">
-    <h1>Contact Us</h1>
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
     <hr/>
     <label for="Name"><b>Name</b></label>
-    <input type="text" placeholder="Enter Your Name" id="name" ></input>
+    <input type="text" placeholder="Enter Name" id="Name"></input>
     
-    <label for="Email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Your Email" id="email"></input>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" id="email"></input>
 
-    <label for="Ph"><b>Phone</b></label>
-    <input type="text" placeholder="Enter Your Number" id="Ph" ></input>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" id="psw"></input>
 
-    <label for="msg"><b>Message</b></label>
-    <input type="text" placeholder="Comment" id="msg" ></input>
     <hr/>
-    <br></br>
-    <button type="submit" class="registerbtnss">Submit</button>
+    <button type="submit" class="registerbtn">Register</button>
   </div>
 
-  <div class="containerss signin">
+  <div class="container signin">
     
   </div>
 </form>
