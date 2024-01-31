@@ -3,6 +3,7 @@
 /* Add padding to containers */
 .container {
     padding: 16px;
+    text-align: center;
   }
   
   /* Full-width input fields */
@@ -36,12 +37,17 @@
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+    font-size: 17px;
   }
   
   .registerbtn:hover {
     opacity:1;
   }
-  
+  input{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
   /* Add a blue text color to links */
   
   
@@ -50,3 +56,19 @@
     background-color: #f1f1f1;
     text-align: center;
   }
+  .log{
+    text-align: center;
+    border: 2px solid rgb(0, 2, 0);
+    border-radius: 12px;
+    margin-left: 637px;
+    margin-right: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(1, 5, 2);
+    cursor: pointer;
+    font-size: 17px;
+    background-color: rgb(216, 142, 57);
+  }
+  
