@@ -59,7 +59,7 @@
 }
 
 .background {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(59, 58, 58, 0.281);
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -70,47 +70,33 @@
     align-content: center;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 62%;
+    
     margin: auto;
 }
 
 .firstsection {
-    height: 100vh;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7) url('../Img/background.jpg');
-    background-size: cover;
+height: 80vh;
+background-size: cover;
 }
 
 .firsthalf {
-    width: 80%;
     justify-content: center;
     display: flex;
     flex-direction: column;
 }
 
-.secondhalf {
-    width: 30%;
-}
-
-.secondhalf img {
-    width: 70%;
-    padding: 30px;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-}
-
 .text-big {
     font-size: 39px;
-    color: rgb(0, 0, 0);
+    color: white;
     text-align: center;
+    margin: 10px;
 }
 
 .text-small {
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Great Vibes', cursive;
     padding: 8px;
-    color: brown;
+    color: white;
 }
 
 .btn {
@@ -118,13 +104,13 @@
     margin: 7px 3px;
     border: 2px solid rgb(0, 2, 0);
     border-radius: 8px;
-
     color: rgb(49, 206, 10);
     cursor: pointer;
 }
 
 .buttons {
     text-align: center;
+    padding: 50px;
 }
 
 @media only screen and (max-width: 1083px) {
@@ -143,16 +129,7 @@
     .rightnav{
         text-align: center;
     }
-    .dims img{
-      
-    height: 100%;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: auto;
-    /* margin-left: 365px;*/
-    transition: 0.3s;
-    }
+   
 }
 
 .btn a {
@@ -164,15 +141,16 @@
     border-color: rgb(255, 0, 0);
     color: black;
 }
-
-.dims img {
-    display: block;
-    height: 385px;
-    width: 520px;
-    margin: 0 auto;
-    /* margin-left: 365px;*/
-    transition: 0.3s;
-    border: 1px solid black;
-
+.firstsection .back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(max-aspect-ratio: 16/9){
+    .firstsection .back-video{
+        width: auto;
+        height: 100%;
+    }
 }
 
