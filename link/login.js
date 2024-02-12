@@ -1,16 +1,11 @@
-var email = document.forms['form']['email'];
-var password = document.forms['form']['password'];
-email.addEventListener('textInput',email_varify);
-password.addEventListener('textInput',password_varify);
-function email_varify(){
-    if(email.value.length >=8 ){
-        return true;
+function login(){
+    var uname=document.getElementById('username').value;
+    var pass=document.getElementById('password').value;
+
+    if(uname=="world" && pass=="123"){
+        location.assign("./ckpcd.html");
     }
-    
-}
-function password_varify(){
-    if(email.value.length >=8 ){
-        return true;
+    else{
+        alert("login failed")
     }
-    
 }
