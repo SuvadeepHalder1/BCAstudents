@@ -25,25 +25,40 @@
         </div>
     </nav>
 
+    <div class='center'>
+
         <form>
         <h1>User login</h1>
         <div class='txt_field'>
-        <input type='text' required></input>
+        <input type='text' name="text" id="username" required></input>
         <span></span>
         <label>user name</label>
         </div>
         <div class='txt_field'>
-        <input type='text' id="fild"></input>
+        <input type='text' name="text" id="password" required></input>
         <span></span>
         <label>password</label>
         </div>
         <div class='pass'>Forget password?</div>
-        <input type='submit' value="Login" class='submit'></input>
+        <input onclick="login()" value="Login" class='submit'></input>
         <div class='signup_link'>
         Not a member?<a href="./Register.html">signup</a>
         </div>
         </form>
         </div>
+        <script type="text/javascript">
+            function login(){
+                var uname=document.getElementById('username').value;
+                var pass=document.getElementById('password').value;
+
+                if(uname=="world" && pass=="123"){
+                    location.assign("./ckpcd.html");
+                }
+                else{
+                    alert("wroung entry")
+                }
+            }
+        </script>
         <footer class="footer">
             <div class="container">
                 <div class="row">
