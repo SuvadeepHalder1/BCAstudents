@@ -24,9 +24,10 @@
             <a href="./Login.html"><button class="btn btn-sm">Login</button></a>
         </div>
     </nav>
+<button onclick="alert('Hi'+document.getElementById('fild').value+',welcome to our page')">click</button>
     <div class='center'>
 
-        <form method='post'>
+        <form>
         <h1>User login</h1>
         <div class='txt_field'>
         <input type='text' required></input>
@@ -34,7 +35,7 @@
         <label>user name</label>
         </div>
         <div class='txt_field'>
-        <input type='text' required></input>
+        <input type='text' id="fild"></input>
         <span></span>
         <label>password</label>
         </div>
