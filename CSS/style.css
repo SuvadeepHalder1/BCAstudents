@@ -137,7 +137,9 @@
 }
 
 .firstsection {
-height: 80vh;
+height: 100vh;
+background: url("../Img/bgg.jpeg");
+width: 100%;
 background-size: cover;
 margin: 0;
 padding: 0;
@@ -147,6 +149,7 @@ padding: 0;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .text-big {
@@ -193,11 +196,9 @@ padding: 0;
     .rightnav{
         text-align: center;
     }
-    .firstsection .back-video{
-        width: auto;
-        height: 100%;
+
     }
-}
+
 
 .btn a {
     text-decoration: none;
@@ -208,7 +209,8 @@ padding: 0;
     border-color: rgb(255, 0, 0);
     color: black;
 }
-.firstsection .back-video {
+/*
+.firstsection {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -216,5 +218,6 @@ padding: 0;
     margin: 0;
     padding: 0;
     width: 100%;
-}
+
+}*/
 
