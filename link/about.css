@@ -3,7 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: sans-serif;
-  text-align: center;
+
 }
 .pction{
   min-height: 100vh;
@@ -11,6 +11,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+   text-align: center;
 }
 .hero1{
   width: 80%;
