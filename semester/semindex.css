@@ -1,5 +1,5 @@
 .sempages{
-    color: rgb(13, 88, 32);
+    color: rgb(241, 241, 241);
     text-align: center;
     font-size: 25px;
 }
@@ -15,9 +15,10 @@ cursor: pointer;
 .firstsection {
     height: 100vh;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7) url('../Img/background.jpg');
+    background: rgba(182, 160, 160, 0.7) url('../Img/background.jpg');
     background-size: cover;
 }
 .text-big{
-    color: brown;
+    color: rgb(222, 213, 241);
+    text-shadow: 10px 10px 10px solid gray;
 }
