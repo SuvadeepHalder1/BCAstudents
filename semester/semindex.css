@@ -15,7 +15,7 @@ cursor: pointer;
 .firstsection {
     height: 100vh;
     width: 100%;
-    background: rgba(182, 160, 160, 0.7) url('../Img/background.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)), url("../Img/background.jpg");
     background-size: cover;
 }
 .text-big{

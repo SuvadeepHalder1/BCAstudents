@@ -1,11 +1,11 @@
 var objUser=[
     {
-        username: "suvadeep",
-        password: "halder"
+        username: "admin1234",
+        password: "bcetgroup"
     },
     {
         username: "sanchita",
-        password: "das" 
+        password: "halderdas" 
     },
     {
         username: "sumit",
@@ -21,12 +21,13 @@ function login(){
 
     for(i=0;i<objUser.length; i++){
         if(uname==objUser[i].username && pass==objUser[i].password){
+       
             location.assign("./ckpcd.html");
             return
         }
 
     }
 
-        alert("login failed")
+        alert("login failed !")
 
 }

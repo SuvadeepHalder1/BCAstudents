@@ -73,6 +73,7 @@
     justify-content: center;
     position: sticky;
     top: 0;
+    font-family: sans-serif;
     cursor: pointer;
 }
 
@@ -96,7 +97,7 @@
 
 .nav-list li a:hover {
     text-decoration: none;
-    color: rgb(248, 152, 152);
+    color: rgb(4, 65, 31);
 }
 
 .rightnav {
@@ -121,7 +122,7 @@
 }
 
 .background {
-    background: rgba(59, 58, 58, 0.281);
+    background: rgba(161, 117, 117, 0.281);
     background-size: cover;
     background-blend-mode: darken;
 }
