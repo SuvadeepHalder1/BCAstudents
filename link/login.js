@@ -1,11 +1,32 @@
+var objUser=[
+    {
+        username: "suvadeep",
+        password: "halder"
+    },
+    {
+        username: "sanchita",
+        password: "das" 
+    },
+    {
+        username: "sumit",
+        password: "das" 
+    }
+]
+
+
+
 function login(){
     var uname=document.getElementById('username').value;
     var pass=document.getElementById('password').value;
 
-    if(uname=="world" && pass=="123"){
-        location.assign("./ckpcd.html");
+    for(i=0;i<objUser.length; i++){
+        if(uname==objUser[i].username && pass==objUser[i].password){
+            location.assign("./ckpcd.html");
+            return
+        }
+
     }
-    else{
+
         alert("login failed")
-    }
+
 }
