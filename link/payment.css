@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 2px;
+    font-size: 35px;
+    color: brown;
+}
+.step{
+    margin: 12px;
+    margin-left: 105px;
+    padding: 12px;
+    font-size: 22px;
+
+}
+.step p{
+    padding: 10px;
+}
+.step1 img{
+    height: 550px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media only screen and (max-width: 645px) {
+    .step1 img{
+        height: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        
+   
+    }
+    .step{
+        margin: 0px;
+        margin-left: 10px;
+        padding: 12px;
+        font-size: 15px;
+    
+    }
+    .step p{
+        padding: 10px;
+    }
+    h1{
+        text-align: center;
+        margin: 2px;
+        font-size:25px;
+        color: brown;
+    }
+
+}
