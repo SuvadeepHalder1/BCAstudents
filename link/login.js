@@ -1,7 +1,7 @@
 var objUser=[
     {
-        username: "admin1234",
-        password: "bcetgroup"
+        username: "admin",
+        password: "bcet"
     },
     {
         username: "sanchita",
