@@ -197,6 +197,14 @@ padding: 0;
     .rightnav{
         text-align: center;
     }
+    .firstsection {
+
+        background: url("../Img/child.jpg");
+        width: 100%;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        }
 
     }
 
