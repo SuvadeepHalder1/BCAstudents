@@ -1,0 +1,16 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h3{
+    text-align: center;
+    color: rgb(25, 77, 1);
+    font-size: 30px;
+    
+}
+.page embed{
+    height: 500px;
+    width: 100%;
+}
