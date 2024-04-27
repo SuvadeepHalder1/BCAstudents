@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: montserrat;
-    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    background: linear-gradient(120deg,#a1f37a,#f15c5c);
     height: 100vh;
     overflow: none;
     left: 50%;
@@ -13,7 +13,8 @@
 .center h1{
     text-align: center;
     padding: 0 0 20px 0;
-    border-bottom: 1px solid silver;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: #000000;
 }
 .center form{
     padding:  40px;
@@ -21,7 +22,7 @@
 }
 form .txt_field{
     position: relative;
-    border-bottom: 2px solid #adadad;
+    border-bottom: 1px solid #2d0b6b;
     margin: 30px 0;
 }
 .txt_field input{
@@ -37,7 +38,7 @@ form .txt_field{
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #adadad;
+    color: #fffdfd;
     transform: translate(-50%);
     font-size: 14px;
     pointer-events: none;
@@ -65,7 +66,7 @@ transition: .5s;
 }
 .pass{
     margin: -5px 0 20px 5px;
-    color: #a6a6a6;
+    color: #000000;
     cursor: pointer;
 }
 .pass:hover{
