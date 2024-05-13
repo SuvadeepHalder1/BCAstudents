@@ -23,6 +23,7 @@ function login(){
         if(uname==objUser[i].username && pass==objUser[i].password){
        
             location.assign("./ckpcd.html");
+            alert("login Successful")
             return
         }
 
