@@ -10,10 +10,6 @@ var objUser=[
     {
         username: "sumit",
         password: "das" 
-    },
-    {
-        username: "admin",
-        password: "dims" 
     }
 ]
 
