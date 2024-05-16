@@ -5,11 +5,15 @@ var objUser=[
     },
     {
         username: "sanchita",
-        password: "halderdas" 
+        password: "halder" 
     },
     {
         username: "sumit",
         password: "das" 
+    },
+    {
+        username: "admin",
+        password: "dims" 
     }
 ]
 
