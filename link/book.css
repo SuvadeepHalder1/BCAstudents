@@ -14,18 +14,17 @@ h3{
     height: 500px;
     width: 100%;
 }
-li{
-    text-align: center;
-}
-li{
+
+.hello li{
     padding: 10px;
     font-size: 25px;
     color: black;
+    text-align: center;
 }
-ul{
+.hello ul{
     margin-bottom: 25px;
 }
-p{
+.hello p{
     font-size: 50px;
     text-align: center;
     color: brown;
